@@ -1,5 +1,5 @@
 'use strict';
-var mongose = require('mongose');
+var mongose = require('mongoose');
 var Schema = mongose.Schema;
 
 var TaskSchema = new Schema({
