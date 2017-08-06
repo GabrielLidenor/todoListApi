@@ -1,6 +1,6 @@
 'use strict';
 
-var mongose = require('mongose'),
+var mongose = require('mongoose'),
     Task = mongose.model('Tasks');
 
 exports.list_all_tasks = function(req, res){
@@ -43,5 +43,5 @@ exports.delete_a_task = function(req, res){
     if(err)
       res.send(err);
     res.json({ message: 'Task successfully deleted'});
-  }
+  });
 };
