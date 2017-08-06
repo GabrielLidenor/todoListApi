@@ -1,0 +1,19 @@
+{
+  "name": "com.arvantech",
+  "version": "1.0.0",
+  "description": "A simple API for a todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielLidenor/todoListApi.git"
+  },
+  "author": "Gabriel Lidenor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielLidenor/todoListApi/issues"
+  },
+  "homepage": "https://github.com/GabrielLidenor/todoListApi#readme"
+}
